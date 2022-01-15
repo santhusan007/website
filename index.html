@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="description" content="Free Web tutorials for HTML and CSS">
+   <meta name="author" content="Santhosh">
+
+  <title> Datomation-Home Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header id="header">
+    
+    
+    <img src="dm.png" alt="mylogo" class="logo" width="250px" >
+   
+
+    <ul>
+      
+      <li><a href="#about" onclick="toggle()">info@datomation.co.in</a></li>
+      <li><a href="#services" onclick="toggle()">+91 7306191467</a></li>
+   
+      <li><a href="#contact" onclick="toggle()">contact</a></li>
+
+
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+
+  </header>
+
+  <!-- Banner -->
+
+  <section class="banner" id="home">
+    <h2>Turning<br><span>Data</span> into stories!!</h2>
+  </section>
+  
+
+   <!-- contact-->
+
+<section id="contact"  class="sec contact" >
+  <div class="content">
+    <div class="maxwid800p">
+      <h3>Send us a Message</h3>
+      <p>We will be in touch with you</p>
+       </div>
+       <div class="contactform">
+         <form>
+            <div class="row100">
+              <div class="inputBx50">
+                <input type="text" name="" placeholder="Full Name">
+              </div>
+               <div class="inputBx50">
+                <input type="text" name="" placeholder="E-mail Address">
+              </div>
+            </div>
+            <div class="row100">
+              <div class="inputBx100">
+                <textarea placeholder="Message"></textarea>
+              </div>                
+            </div>
+            <div class="row100">
+              <div class="inputBx100">
+                <input type="submit" name="" value="Send">
+              </div>                
+            </div>
+          </form>
+        </div>
+        <!-- <div class="sci">
+          <ul>
+            <li> <a href="#"><img src="facebook.png"></a></li>
+            <li> <a href="#"><img src="twitter.png"></a></li>
+            <li> <a href="#"><img src="linkedin.png"></a></li>
+          </ul>
+        </div> -->
+        <p class="copyright"> Design& Devolped by<a href="#">"Datomation"</a></p>
+    </div>
+    
+  </section>
+
+
+ 
+
+ 
+
+  <!-- Java Script -->
+
+  <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+
+      var header =document.querySelector("header")
+      header.classList.toggle("sticky",window.scrollY>0);
+    })
+    function toggle(){
+      var header =document.querySelector("header")
+      header.classList.toggle("active");
+    }
+
+  </script>
+
+</body>
+
+</html>
+
