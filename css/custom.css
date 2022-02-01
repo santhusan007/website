@@ -40,8 +40,12 @@
  .small-screen{
         display:none
     }
-    
-     }
+	
+.middle{
+
+        text-align: center;
+        align-items: center;
+    }
     
     social{
         width: 100%;
