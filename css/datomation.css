@@ -228,7 +228,7 @@ strong {
 }
 
 .my-btn {
-  background: var(--dark-color);
+  background: var(--primary-color);
   border-radius: 50px;
   color: var(--white-color);
   font-size: var(--copyright-text-font-size);
