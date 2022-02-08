@@ -7,6 +7,8 @@
     $(window).load(function(){
       $('.preloader').delay(100).slideUp('fast'); // set duration in brackets    
     });
+    
+    
 
     // NAVBAR
     $(".navbar").headroom();
