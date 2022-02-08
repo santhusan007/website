@@ -5,7 +5,7 @@
 
     // PRE LOADER
     $(window).load(function(){
-      $('.preloader').delay(200).slideUp('slow'); // set duration in brackets    
+      $('.preloader').delay(100).slideUp('slow'); // set duration in brackets    
     });
 
     // NAVBAR
