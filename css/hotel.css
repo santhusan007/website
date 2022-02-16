@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+* {
+    box-sizing: border-box;
+    
+}
 
 
 HTML, body {
@@ -13,7 +17,7 @@ HTML, body {
 
 body {
     
-    
+	display:flex
     align-items: center;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
