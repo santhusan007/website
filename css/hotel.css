@@ -51,13 +51,13 @@ body {
 }
 
 .sb-example-1 .search {
-    width: 100%;
+    width: 350px;
     position: relative;
     display: flex;
     border-radius: 50px;
   }
   .sb-example-1 .searchTerm {
-    width: 100%;
+    width: 350px;
     border: 3px solid var(--bg-color);
     border-right: none;
     padding: 5px;
