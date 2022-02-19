@@ -197,13 +197,13 @@ header {
       }
     #mybutton {
         position: fixed;
-        bottom: 0px;
+        bottom: 20px;
         left: 150px;        
       }
     
       #wa {
         position: fixed;
-        bottom: 0px;
+        bottom: 20px;
         width: 2.8em;
         height: 2.8em;
         left: 50px;
@@ -212,7 +212,7 @@ header {
     
       #phone {
         position: fixed;
-        bottom: 0px;
+        bottom: 20px;
         width: 3em;
         height: 3em;
         right: 50px;
