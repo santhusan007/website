@@ -1,0 +1,7 @@
+User-agent: rogerbot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+Sitemap: https://www.datomation.co.in/sitemap.xml
